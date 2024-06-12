@@ -1,4 +1,4 @@
 ﻿# webdev
-hi i am Shivam Kriti
-This is a sample edc website created only using html and css  
+This is a sample edc website created only using html and css 
+it is not responsive.
 link-https://shivamkriti.github.io/webdev/
