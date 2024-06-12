@@ -134,8 +134,35 @@ body {
 
 .service__card {
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.1);
+  background:rgb(39, 38, 38);
   border-radius: 1rem;
+}
+
+.service__card:hover {
+
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+  background: linear-gradient(
+    to right,
+    #c2b3ea49,
+    #99b8f14b,
+    #6abceb4a,
+    #41bfd848,
+    #3abdbb47,
+    #44c1ac43,
+    #59c39a47,
+    #72c48744,
+    #83cd7f42,
+    #96d67641,
+    #adde6c42,
+    #c4e56242
+  );
+  transform: scale(1.1);
+  p,h4{
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+  }
 }
 
 .service__icon {
@@ -162,7 +189,7 @@ body {
 }
 
 .service__card p {
-  color: var(--text-light);
+  color: #cbd3da;
   margin-bottom: 1rem;
 }
 
@@ -205,12 +232,12 @@ body {
 }
 
 .template__image {
-  text-align: center;
+  text-align: right;
 }
 
 .template__image img {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   border-radius: 1rem;
 }
 
